@@ -6,6 +6,20 @@ enum PhoneScreen {
   large,
 }
 
+class MyImages {
+  MyImages._();
+
+  static const String vectorMen = 'assets/images/background_vector_men.png';
+  static const String vectorWomen = 'assets/images/background_vector_woman.png';
+  static const String vectorPlain = 'assets/images/background_vector_plain.png';
+  static const String bankAAA = 'assets/images/ic_bankAAA.png';
+  static const String bankBBB = 'assets/images/ic_bankBBB.png';
+  static const String bankCCC = 'assets/images/ic_bankCCC.png';
+  static const String bankDDD = 'assets/images/ic_bankDDD.png';
+  static const String languageId = 'assets/images/language_id.png';
+  static const String infoYellow = 'assets/images/eva_info-fill.png';
+}
+
 class ScreenSize {
   PhoneScreen phoneScreen = PhoneScreen.normal;
   PhoneScreen getPhoneSize(BuildContext context) {

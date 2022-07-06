@@ -1,6 +1,6 @@
 name: wtextfield
-description: A new Flutter package project.
-version: 0.0.1
+description: Flutter package project for component page login.
+version: 0.0.2
 homepage: https://github.com/alfat/modular.git
 
 environment:
