@@ -170,13 +170,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
-  wbutton:
-    dependency: "direct main"
-    description:
-      path: wbutton
-      relative: true
-    source: path
-    version: "0.0.1"
   wtextfield:
     dependency: "direct main"
     description:

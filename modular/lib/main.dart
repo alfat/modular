@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wtextfield/wtextfield.dart';
-import 'package:wbutton/wbutton.dart';
+import 'package:wtextfield/wbutton.dart';
 
 void main() {
   runApp(const MyApp());

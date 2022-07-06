@@ -36,8 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   wtextfield: 
     path: wtextfield/
-  wbutton:
-    path: wbutton/
 
 
 dev_dependencies:
