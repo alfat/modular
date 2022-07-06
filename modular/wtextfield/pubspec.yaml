@@ -1,20 +1,23 @@
 name: wtextfield
 description: Flutter package project for component page login.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/alfat/modular.git
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
+  # custom_alert_box: ^0.0.1
   flutter:
     sdk: flutter
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

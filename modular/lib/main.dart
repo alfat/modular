@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wtextfield/wbutton.dart';
+import 'package:modular/component/wbutton.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:wtextfield/popup.dart';
-import 'package:custom_alert_box/custom_alert_box.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
       routes: <String, WidgetBuilder> {
-        "popup" : (BuildContext context) => new PopUp(),
+        "popup" : (BuildContext context) => const PopUp(),
       }
     );
   }
@@ -36,14 +36,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  TextEditingController userIdController = TextEditingController();
-  FocusNode userIdFocus = FocusNode();
-
-   TextEditingController passwordController = TextEditingController();
-  FocusNode passwordFocus = FocusNode();
-  
-  String userId = '';
-  String password = '';
 
   @override
   Widget build(BuildContext context) {
@@ -55,35 +47,13 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-              //  WTextField(
-              //     inputType: TextInputType.text,
-              //     title: "User ID",
-              //     textEditingController: userIdController,
-              //     focusNode: userIdFocus,
-              //     onChanged: (value) {
-              //       userId = value;
-              //     },
-              //   ),
-              //   const Padding(padding: EdgeInsets.only(top: 5)),
-              //   WTextField(
-              //     obscureText: true,
-              //     inputType: TextInputType.visiblePassword,
-              //     title: "Password",
-              //     textEditingController: passwordController,
-              //     focusNode: passwordFocus,
-              //     onChanged: (value) {
-              //       password = value;
-              //     },
-              //   ),
                  const Padding(padding: EdgeInsets.only(top: 20)),
                 WButton(
                   onPressed: (){
-                    // FocusManager.instance.primaryFocus?.unfocus();
-                    // validateForm();
                     Navigator.of(context).pushNamed("popup");
                   },
                   width: 200,
-                  title: "Redirect Login",
+                  title: "Redirect Pages",
                 ),
           ],
         ),

@@ -1,5 +1,3 @@
-library wtextfield;
-
 import 'package:flutter/material.dart';
 // import 'package:flutter/helpers/constant.dart';
 
